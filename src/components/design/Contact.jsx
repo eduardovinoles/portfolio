@@ -24,10 +24,10 @@ export const ContactMe = () => {
 
     emailjs
       .send(
-        "service_dq9txkw",
-        "template_gyz56dh",
+        "service_id", // your service id
+        "template_id", // your template id
         formData,
-        "_WRwKs5Bqmw5gPZxY"
+        "_form" //
       )
       .then(
         (result) => {
